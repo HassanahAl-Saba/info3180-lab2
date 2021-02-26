@@ -1,3 +1,57 @@
 body {
     padding-top: 5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.upper{
+    background-color: #5A67D8;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    
+}
+
+.lower{
+    background-color: aliceblue;
+    padding: 50px;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: none;
+    background-color: #5A67D8;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+
